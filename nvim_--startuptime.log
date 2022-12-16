@@ -1,0 +1,88 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.004  000.004: --- NVIM STARTING ---
+000.070  000.066: event init
+000.146  000.076: early init
+000.254  000.109: locale set
+000.274  000.020: init first window
+000.507  000.233: inits 1
+000.513  000.006: window checked
+000.515  000.002: parsing arguments
+000.851  000.045  000.045: require('vim.shared')
+000.919  000.032  000.032: require('vim._meta')
+000.920  000.067  000.035: require('vim._editor')
+000.921  000.134  000.022: require('vim._init_packages')
+000.922  000.273: init lua interpreter
+000.994  000.073: expanding arguments
+001.029  000.035: inits 2
+001.276  000.247: init highlight
+001.277  000.001: waiting for UI
+001.934  000.657: done waiting for UI
+001.951  000.017: init screen for UI
+002.210  000.259: init default mappings
+002.233  000.023: init default autocommands
+002.638  000.057  000.057: sourcing /usr/share/nvim/runtime/ftplugin.vim
+002.696  000.023  000.023: sourcing /usr/share/nvim/runtime/indent.vim
+002.818  000.058  000.058: require('core')
+002.962  000.134  000.134: require('core.options')
+002.988  000.025  000.025: require('utils.mapping')
+003.037  000.048  000.048: require('core.mappings')
+003.046  000.006  000.006: require('vim.keymap')
+003.072  000.346  000.076: sourcing /home/matcha1024/.config/nvim/init.lua
+003.076  000.417: sourcing vimrc file(s)
+003.289  000.160  000.160: sourcing /usr/share/nvim/runtime/filetype.lua
+003.312  000.010  000.010: sourcing /usr/share/nvim/runtime/filetype.vim
+003.444  000.072  000.072: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+003.528  000.201  000.129: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+003.622  000.004  000.004: require('vim.F')
+003.943  000.014  000.014: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+003.958  000.007  000.007: sourcing /usr/share/nvim/runtime/plugin/health.vim
+003.975  000.010  000.010: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+003.989  000.007  000.007: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+004.009  000.013  000.013: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+004.020  000.005  000.005: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+004.030  000.004  000.004: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+004.041  000.006  000.006: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+004.058  000.010  000.010: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+004.072  000.006  000.006: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+004.083  000.005  000.005: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+004.102  000.012  000.012: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+005.401  000.387  000.387: require('utils.lazy_load')
+005.985  000.257  000.257: require('dashboard')
+006.004  000.321  000.063: require('plugins.ui.configs.dashboard')
+006.229  002.075  001.367: sourcing /home/matcha1024/.config/nvim/plugin/packer_compiled.lua
+006.401  000.033  000.033: sourcing /usr/share/nvim/runtime/plugin/man.lua
+006.412  000.756: loading rtp plugins
+006.673  000.110  000.110: require('dashboard.session')
+006.692  000.176  000.065: sourcing /home/matcha1024/.local/share/nvim/site/pack/packer/start/dashboard-nvim/plugin/dashboard.lua
+006.831  000.026  000.026: sourcing /home/matcha1024/.local/share/nvim/site/pack/packer/start/plenary.nvim/plugin/plenary.vim
+006.925  000.311: loading packages
+006.927  000.002: loading after plugins
+006.936  000.009: inits 3
+009.455  002.519: reading ShaDa
+009.621  000.166: opening buffers
+009.623  000.002: BufEnter autocommands
+009.625  000.002: editing files in windows
+009.770  000.134  000.134: require('packer.load')
+010.410  000.157  000.157: sourcing /home/matcha1024/.local/share/nvim/site/pack/packer/opt/gruvbox-material/autoload/gruvbox_material.vim
+023.484  013.275  013.119: sourcing /home/matcha1024/.local/share/nvim/site/pack/packer/opt/gruvbox-material/colors/gruvbox-material.vim
+024.186  000.039  000.039: require('noice.util.lazy')
+024.192  000.119  000.080: require('noice')
+024.547  000.123  000.123: require('noice.util.call')
+024.573  000.376  000.253: require('noice.util')
+024.913  000.163  000.163: require('noice.config')
+024.917  000.339  000.176: require('noice.health')
+024.927  001.276  000.442: require('plugins.ui.configs.noice')
+025.055  000.037  000.037: sourcing /home/matcha1024/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons/plugin/nvim-web-devicons.vim
+026.044  000.911  000.911: require('nvim-web-devicons')
+030.210  000.072  000.072: require('dashboard.preview')
+030.214  000.157  000.086: require('dashboard.events')
+030.246  004.831: VimEnter autocommands
+030.248  000.002: UIEnter autocommands
+030.249  000.001: before starting main loop
+030.584  000.335: first screen update
+030.586  000.003: --- NVIM STARTED ---
