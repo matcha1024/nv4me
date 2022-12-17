@@ -3,7 +3,7 @@ require("sidebar-nvim").setup({
     hide_statusline = false,
     side = "left",
     sections = { "datetime", "files", "diagnostics", "git", "symbols" },
-    datetime = { format = "%a %b %d, %H:%M:%S", clocks = { { name = "Tokyo" } } },
+    datetime = { format = "%b/%d, %H:%M:%S", clocks = { { name = "Local" } } },
     files = {
         show_hidden = true,
     },

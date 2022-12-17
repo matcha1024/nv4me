@@ -10,7 +10,11 @@ return {
     },
 
     ["folke/noice.nvim"] = {
-        after = "gruvbox-material",
+        -- after = "gruvbox-material",
+        opt = true,
+        setup = function()
+            require("utils.lazy_load").on_file_open("noice.nvim")
+        end,
         config = function()
             require("plugins.ui.configs.noice")
         end,
