@@ -168,7 +168,7 @@ local hour_now = os.date("*t")["hour"]
 local greeting = ""
 if 5 <= hour_now and hour_now < 11 then
 	greeting = "Good morning"
-elseif 12 <= hour_now and hour_now < 6 then
+elseif 12 <= hour_now and hour_now < 18 then
 	greeting = "Good afternoon"
 else
 	greeting = "Good evening"
